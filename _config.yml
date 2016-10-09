@@ -4,7 +4,7 @@ email: hello@openias.org
 description: >
   Embryo of a Massive Open Online Research (MOOR) platform.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.openias.org" # the base hostname & protocol for your site
+url: "http://www.openias.org" # the base hostname & protocol for your site
 enable_retina: false
 permalink: :title
 nav_list:
