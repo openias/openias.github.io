@@ -96,6 +96,7 @@ var s,
                 })
             });
 
+            // Seems to cause the problematic "scroll to top" problem:
             s.jpm.on();
         }
     };
