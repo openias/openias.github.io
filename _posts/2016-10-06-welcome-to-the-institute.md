@@ -10,7 +10,7 @@ show_avatar : true
 read_time : 10
 feature_image: feature-ias-sky
 ---
-Every year about two hundred scholars are welcomed to the 
+Every year about two hundred scholars are welcomed to the
 <a href="http://www.ias.edu">Institute for Advanced Study</a> in Princeton, USA.
 Former faculty include <a href="https://en.wikipedia.org/wiki/Albert_Einstein">Albert Einstein</a>,
 <a href="https://en.wikipedia.org/wiki/John_von_Neumann">John von Neumann</a> and
@@ -19,11 +19,11 @@ would of course be an understatement.
 
 But fellowship at the IAS is not the only exclusive club in academia.
 Everywhere you look, from student admissions to "tenure track" positions, from grants to publications,
-there is great exclusivity. Why is that? I'm only guessing, but I think it's because historically
-exclusivity has been the only way to safeguard quality in the scientific discussion. Back in 1930 when
+there is great exclusivity. Why is that? I'm only guessing, but I think it's because exclusivity,
+historically, has been a way to safeguard quality in the scientific discussion; back in 1930 when
 <a href="https://en.wikipedia.org/wiki/Institute_for_Advanced_Study#Founding">Abraham Flexner
-founded the original IAS</a> there simply was no substitute for exclusivity in the pursuit of
-scientific truth and beauty.
+founded the original IAS</a> exclusivity was the default, and there simply was no technological
+substitute for it in the pursuit of scientific truth and beauty.
 
 But today there is: We now have technology that can substitute for exclusivity in safeguarding the
 quality of the scientific discussion. Just as an example, over a million students have
