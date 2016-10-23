@@ -1,8 +1,8 @@
 # Site settings
-title: Open Institute for Advanced Study
+title: OpenIAS
 email: hello@openias.org
 description: >
-  Embryo of a Massive Open Online Research (MOOR) platform.
+  An experiment in online research collaboration.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.openias.org" # the base hostname & protocol for your site
 enable_retina: false
