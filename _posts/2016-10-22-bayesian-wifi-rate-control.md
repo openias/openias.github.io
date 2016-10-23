@@ -59,7 +59,7 @@ over the air. Arrows represent "pointers".</span>*
 The default rate control algorithm in Linux is called
 [Minstrel](https://wireless.wiki.kernel.org/en/developers/documentation/mac80211/ratecontrol/minstrel).
 Most of its implementation is in
-[the file ```net/mac80211/rc80211_minstrel.c```](http://lxr.free-electrons.com/source/net/mac80211/rc80211_minstrel.c?v=4.8).
+[the file ```net/mac80211/rc80211_minstrel_ht.c```](http://lxr.free-electrons.com/source/net/mac80211/rc80211_minstrel_ht.c?v=4.8).
 It's [widely cited in the literature](https://scholar.google.com/scholar?q=minstrel+rate+control) and
 often used as a benchmark when evaluating novel algorithms. In most radio environments it performs
 reasonably well, but it's based on very hand-wavy statistical reasoning. Essentially it just keeps
