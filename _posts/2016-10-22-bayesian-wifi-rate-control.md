@@ -153,6 +153,9 @@ to testers, so please don't be shy!
 
 ## Want to Join In?
 
+Want to join in the fun, **and** get your name on a research paper and/or some pretty cool open source
+code? Shoot me an email at <bjorn@openias.org> or fill in the form below!
+
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc1sEx335_JdWxLcfXUggpk9rl41QbFx1jQfjfHqAecdO2DYA/viewform?embedded=true" width="100%" height="1100" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 
