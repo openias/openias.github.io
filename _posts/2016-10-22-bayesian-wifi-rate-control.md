@@ -50,11 +50,12 @@ each with its own
 The latter should evaluate the result of the transmission and learn from it; so that a better
 selection can be made the next time ```get_rate``` is called.
 
+
 ![Wi-Fi chipset DMA](/img/wifi-chipset-dma.jpg)
-*<span style="font-size: 16px">Sketch of a Wi&#8209;Fi chipset DMA chain: So-called DMA descriptors,
-each containing the memory address of the frame data and radio parameters (R<sub>1</sub> to
-R<sub>4</sub>), are chained together before being transferred to the Wi&#8209;Fi chipset and transmitted
-over the air. Arrows represent "pointers".</span>*
+<p class="caption">Sketch of a Wi&#8209;Fi chipset DMA
+chain: So-called DMA descriptors, each containing the memory address of the frame data and radio
+parameters (R<sub>1</sub> to R<sub>4</sub>), are chained together before being transferred to the
+Wi&#8209;Fi chipset and transmitted over the air. Arrows represent "pointers".</p>
 
 The default rate control algorithm in Linux is called
 [Minstrel](https://wireless.wiki.kernel.org/en/developers/documentation/mac80211/ratecontrol/minstrel).
@@ -101,10 +102,11 @@ There's an
 that takes this approach.
 
 ![Multi-Armed Bandit](/img/multi-armed-bandit.png)
-*<span style="font-size: 16px">Each choice of radio parameters can be modeled as a slot machine with an
+<p class="caption">Each choice of radio parameters can be modeled as a slot machine with an
 uncertain reward distribution, transforming the rate adaptation problem into a (restless / contextual)
 multi-armed bandit problem. Slide from David Silvers
-[lecture on the trade-off between exploration and exploitation in muli-armed bandit problems](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/XX.pdf).</span>*
+<a href="http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/XX.pdf">lecture on the trade-off
+between exploration and exploitation in muli-armed bandit problems</a>.</p>
 
 So we have a research paper and we need an implementation. How is that research? Not so fast,
 [Combes et al](https://people.kth.se/~alepro/pdf/infocom2014.pdf) makes one unfortunate simplifying
