@@ -10,6 +10,10 @@ layout: default
     </span>
 
     {% include nav.html %}
+
+    {% if page.use_math %}
+        {% include mathjax.html %}
+    {% endif %}
 </header>
 
 <main class="container">
