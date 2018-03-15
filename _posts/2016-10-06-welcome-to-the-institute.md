@@ -38,13 +38,10 @@ research? If so, what technology is needed and how do we build it? These are the
 trying to find answers to, and in the spirit of openness I'm doing it out in the open, with the
 hope that others will want to join me in this quest.
 
-To paraphrase Abraham Flexner: The time might very well be ripe for the creation of an online institute,
-modeled after the Princeton Institute for Advanced Study in that it is not a graduate
-school training students in the known and in the methods of research, but rather an institute where
-everyone takes for granted what is known and published, and, each in their own individual way, endeavor
-to advance the frontiers of knowledge. This nascent institute would however distinguish itself from
-those before it by welcoming everyone to join its ranks, work collaboratively on research and partake
-in the scientific discussion, whether they are a tenured professor or still in high school.
+The time might very well be ripe for the creation of an online institute. This nascent institute
+would distinguish itself from those before it by welcoming everyone to join its ranks, work
+collaboratively on research and partake in the scientific discussion, whether they are a tenured
+professor or still in high school.
 
 ## A cross between [Upwork](https://www.upwork.com/) and [Kickstarter](https://www.kickstarter.com)
 

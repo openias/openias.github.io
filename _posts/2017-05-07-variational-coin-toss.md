@@ -68,7 +68,7 @@ $$
 </p>
 
 where $p(\vect{x} \given z)$ is usually referred to as the "likelihood of $z$" and
-$p(\vect{x})$ is called the model "evidence".
+$p(\vect{x})$ is called the model "evidence". $p(z)$ is of course just the prior.
 
 With our choice of prior over $z$, and conditional probability of $\vect{x}$
 given $z$, we could quite easily derive a closed form expression for the
@@ -113,7 +113,7 @@ $$
 $$
 </p>
 
-Since $\log ab = \log a + \log b$ we can rewrite that as
+Since $\log ab = \log a + \log b$ and $\log \frac{1}{a} = -\log a$ we can rewrite that as
 
 <p class="math">
 $$
@@ -164,7 +164,7 @@ by $\alpha_q$ and $\beta_q$.
 <p class="caption">Figure 2. The beta distribution is a family of continuous
 probability distributions defined on the interval [0, 1], parametrized by two
 positive shape parameters $\alpha$ and $\beta$.
-.</p>
+</p>
 
 We can then derive expressions for each of the terms in Eq. 5. We start with the
 Kullback-Leibler divergence between the variational posterior $q(z)$ and the
@@ -247,17 +247,18 @@ $$
 	(\alpha_q - 3 - n_h) \psi(\alpha_q) + \\
 	(\beta_q - 3 - n_t) \psi(\beta_q) + 
 	(3 - \alpha_q + 3 - \beta_q + n_h + n_t) \psi(\alpha_q + \beta_q) + \\
-	\log p(\vect{x}).
+	\log p(\vect{x}),
 \end{equation}
 $$
 </p>
 
-That's very likely solvable in closed form, but since we're here to learn
-about the case when it's not we'll go right ahead and minimize the above
+and go look for $\alpha^\ast_q$ and $\beta^\ast_q$ that minimize
+$\KL{q(z)}{p(z \given \vect{x})}$. In this very simple example there's
+probably a closed form solution, but since we're here to learn
+about the case when there's not we'll go right ahead and minimize the above
 expression numerically. The video below shows
 [scipy.optimize.minimize()](https://docs.scipy.org/doc/scipy-0.19.0/reference/generated/scipy.optimize.minimize.html)
-going to work on the problem of finding $\alpha^\ast_q$ and $\beta^\ast_q$ that
-minimizes Eq. 11. Note that $\log p(\vect{x})$ is independent of $\alpha_q$
+going to work on the problem. Note that $\log p(\vect{x})$ is independent of $\alpha_q$
 and $\beta_q$ and can thus be left out of the optimization.
 
 {% include figures/variational_coin_closedform.html %}
@@ -284,9 +285,11 @@ $$
 
 Expressed in words what we do is to draw $K$ i.i.d. samples $x_i$ from the probability
 distribution $p(x)$ and compute the value of $f(x_i)$ for each one. We then take the
-average of that and call it our Monte Carlo approximation.
+average of that and call it our Monte Carlo approximation. Simple!
 
-If we apply that approximation to Eq. 5 we get
+In this case we were quite lucky that there was a closed form expression for
+$\KL{q(z)}{p(z)}$ (see Eq. 6). But let's for a moment pretend that there wasn't.
+If we then go back to Eq. 5 and apply Monte Carlo approximation we get
 
 <p class="math" style="font-size: 16px">
 $$
@@ -326,7 +329,7 @@ $\KL{q(z)}{p(z \given \vect{x})}$.</p>
 ### Normal Distribution as Variational Posterior
 
 Beta distributed priors and posteriors are a pretty natural choice when
-we're talking about coin tosses, but usually we're not. In many cases we have
+we're talking about coin tosses, but most of the time we're not. In many cases we have
 no real reason to choose one family of distributions over another, and then
 often end up with normal distributions - mostly because they are easy to
 work with.

@@ -26,23 +26,9 @@ $$
 \newcommand{\set}[1]{\{#1\}}
 $$
 
-### This post in summary
-
- * Starting from a latent variable model, we arrive at a discriminative classifier
-   if we assume that $p(y \given \vect{z}, \vect{x})$ can be approximated as
-   $q(y \given \vect{x})$.
- * If we instead assume that $p(y \given \vect{z}, \vect{x})$ can be approximated
-   as $q(y \given \vect{z})$ we get a generative classifier that fits well into the
-   variational autoencoder framework.
- * This suggest that we can construct a hybrid generative-discriminative classifier
-   based on the assumption that $p(y \given \vect{z}, \vect{x})$ can be approximated
-   by a linear combination (mixture) of $q(y \given \vect{x})$ and
-   $q(y \given \vect{z})$.
- * [Results on a toy dataset](#experiments) look promising.
-
 ## Discriminative vs Generative Classifiers
 
-Ok, let's say we have a dataset $\set{ \vect{x_i}, y_i }, i = 0 ... N$ and you
+Ok, let's say we have a dataset $\set{ \vect{x_i}, y_i }, i = 0 ... N$ and we
 want to train a classifier that can infer a label $y_i$ from an example
 $\vect{x_i}$. There are essentially two different ways to go about that:
 
