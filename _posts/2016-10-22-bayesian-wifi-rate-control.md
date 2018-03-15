@@ -33,7 +33,7 @@ about replacing the "rules of thumb" with the one rule that rules them all:
 explore this opportunity to advance the frontiers of knowledge and push the human race forward. *:P*
 With a bit of luck we will some day arrive at an implementation of a Bayesian Wi&#8209;Fi rate control
 algorithm for the Linux kernel, so that anyone can run it on a low-cost consumer Wi&#8209;Fi router
-by flashing it with [OpenWrt](http://www.openwrt.org) firmware.
+(by replacing its firmware with [OpenWrt](http://www.openwrt.org)).
 
 ## The Problem and the Usual Rules of Thumb
 
@@ -81,9 +81,9 @@ From time to time Minstrel will try some unexpected radio parameters in an attem
 behavior that has given it its name:
 [like a wandering minstrel the algorithm will wander around the different rates and sing wherever it can](https://sourceforge.net/p/madwifi/svn/HEAD/tree/madwifi/trunk/ath_rate/minstrel/minstrel.txt).
 
-I see a number of problems with these "rules of thumb" and I suspect that they lead to suboptimal
-performance in more challenging radio environments. I could go on and on about these problems,
-but I think it suffices to say that Minstrel is not based on sound statistical inference.
+There are a number of problems with these "rules of thumb" and I suspect that they lead to suboptimal
+performance in more challenging radio environments. I could go on and on about them,
+but I think it suffices to say that Minstrel is not based on very sound statistical reasoning.
 
 ## The State of the Art
 
@@ -143,7 +143,7 @@ Another is more practical and includes modeling the rate adaptation problem as a
 code for approximate inference in DBNs (like [libDAI](https://staff.fnwi.uva.nl/j.m.mooij/libDAI/)
 or [Mocapy++](https://sourceforge.net/projects/mocapy)) and a network simulator like
 [NS-3](https://www.nsnam.org/) could probably be put together relatively quickly. This could be an
-interesting thesis project, for example.
+interesting Master's thesis project, for example.
 
 Yet another approach is even more practical and can be described as "writing a better Minstrel",
 directly targeting the Linux kernel. The focus would be on simplifying assumptions like working with
