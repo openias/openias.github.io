@@ -2,7 +2,7 @@
 layout: post
 title:  "Variational Coin Toss"
 date:   2017-05-07 17:19:02 +0200
-categories: statistics
+categories: probability
 author_name: Bj&ouml;rn Smedman
 author_url: /author/bjorn
 author_avatar: bjorn

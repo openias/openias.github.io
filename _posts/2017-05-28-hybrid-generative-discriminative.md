@@ -2,7 +2,7 @@
 layout: post
 title:  "Hybrid Generative-Discriminative Deep Models"
 date:   2017-05-28 14:41:17 +0200
-categories: statistics
+categories: probability
 author_name: Bj&ouml;rn Smedman
 author_url: /author/bjorn
 author_avatar: bjorn
