@@ -3,9 +3,11 @@ layout: post
 title:  "The Incorrect Assumption Behind Sweden's COVID-19 Strategy"
 date:   2020-04-11 16:26:02 +0200
 categories: social
+summary: "The official story is that our strategy is unique because we are unique, with high levels of trust in experts and government. But unfortunately the truth seems to be that our strategy is based on an incorrect assumption."
 author_name: Bj&ouml;rn Smedman
 author_url: /author/bjorn
 author_avatar: bjorn
+author_twitter: bjornsing
 show_avatar: true
 read_time: 10
 feature_image: feature-covid19

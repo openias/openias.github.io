@@ -26,4 +26,24 @@
         ga('create', 'UA-85448696-1', 'auto');
         ga('send', 'pageview');
     </script>
+
+    <!-- Twitter cards: -->
+    {{ page.author_twitter }}
+    {% if page.author_twitter %}
+    <meta name="twitter:site"    content="@{{ page.author_twitter }}">
+    <meta name="twitter:creator" content="@{{ page.author_twitter }}">
+    <meta name="twitter:title"   content="{{ page.title }}">
+
+    {% if page.summary %}
+    <meta name="twitter:description" content="{{ page.summary }}">
+    {% endif %}
+
+    {% if page.feature_image %}
+    <meta name="twitter:card"  content="summary_large_image">
+    <meta name="twitter:image" content="{{ site.url }}/img/{{ page.feature_image }}.jpg">
+    {% else %}
+    <meta name="twitter:card"  content="summary">
+    {% endif %}
+    {% endif %}
+
 </head>
