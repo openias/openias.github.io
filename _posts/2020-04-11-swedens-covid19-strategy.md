@@ -3,9 +3,11 @@ layout: post
 title:  "The Incorrect Assumption Behind Sweden's COVID-19 Strategy"
 date:   2020-04-11 16:26:02 +0200
 categories: social
+summary: "The official story is that our strategy is unique because we are unique, with high levels of trust in experts and government. But unfortunately the truth seems to be that our strategy is based on an incorrect assumption."
 author_name: Bj&ouml;rn Smedman
 author_url: /author/bjorn
 author_avatar: bjorn
+author_twitter: bjornsing
 show_avatar: true
 read_time: 10
 feature_image: feature-covid19
@@ -42,7 +44,7 @@ The WHO has also [called it "new to science"](https://www.bbc.com/news/world-asi
 
 The medical profession, at least in Sweden, walks a tightrope between science and proven experience. Until the science is settled,
 doctors are taught, the safe bet is to trust in proven experience. For clinical work this is of course a very reasonable attitude.
-You can't risk patient's lives with experimental treatments just because there's a single case study indicating it could work.
+You can't risk patients' lives with experimental treatments just because there's a single case study indicating it could work.
 But what happens if you apply this type of reasoning to the management of a [SARS virus](https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome-related_coronavirus)
 pandemic? Perhaps you think it's safest to assume the draconian measures in Wuhan had no effect?
 And if you do make that assumption, then what would you think stopped the outbreak there? Well, the classic
