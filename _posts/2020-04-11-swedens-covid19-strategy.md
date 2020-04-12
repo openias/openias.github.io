@@ -66,8 +66,9 @@ On March 16 he
 [claimed that 90-95% of those infected would hardly notice their illness](https://youtu.be/n2MajAQvpY8?t=1541).
 On March 26 he made
 [a similar but even more optimistic claim on a Swedish newscast](https://twitter.com/KarimJebari/status/1243623795253968902?s=20).
-His predecessor Johan Giesecke has said on Swedish television that 
-[he believes COVID-19 is like a severe seasonal flu](https://www.svt.se/nyheter/inte-varre-an-en-svar-influensasasong).
+His predecessor Johan Giesecke has said that 
+[he believes COVID-19 is like a severe seasonal flu](https://www.svt.se/nyheter/inte-varre-an-en-svar-influensasasong),
+and that [he believes that Wuhan reached herd immunity](https://www.vt.se/nyheter/giesecke-vi-kommer-att-klara-det-har-om6551023.aspx).
 
 These claims are almost certainly incorrect, and probably based on the incorrect assumption that it was
 [herd immunity](https://en.wikipedia.org/wiki/Herd_immunity) that stopped the outbreak in Wuhan City.
