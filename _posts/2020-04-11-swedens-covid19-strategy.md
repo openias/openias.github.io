@@ -55,9 +55,9 @@ Wuhan City has a population of approximately 11.8 million. About 50&nbsp;000 peo
 [COVID-19](https://en.wikipedia.org/wiki/Coronavirus_disease_2019) before the outbreak was largely over
 ([Mizumoto 2020](https://www.medrxiv.org/content/10.1101/2020.02.12.20022434v2)).
 That's just 0.5% of the population. So how could Wuhan City possibly have reached
-[herd immunity](https://en.wikipedia.org/wiki/Herd_immunity) so quickly? Well, it's well known that there are asymtomatic cases of
+[herd immunity](https://en.wikipedia.org/wiki/Herd_immunity) so quickly? Well, it's well known that there are asymptomatic cases of
 [COVID-19](https://en.wikipedia.org/wiki/Coronavirus_disease_2019).
-If large enough a portion of those infected are asymtomatic or have only very mild symptoms, then a majority of the population
+If large enough a portion of those infected are asymptomatic or have only very mild symptoms, then a majority of the population
 could possibly have been infected, while only 50&nbsp;000 needed care. That would make the severity of a
 [COVID-19](https://en.wikipedia.org/wiki/Coronavirus_disease_2019) 
 epidemic roughly comparable to a severe influenza, and this seems to be exactly what Sweden's state epidemiologist
@@ -69,7 +69,7 @@ On March 26 he made
 His predecessor Johan Giesecke has said that 
 [he believes COVID-19 is like a severe seasonal flu](https://www.svt.se/nyheter/inte-varre-an-en-svar-influensasasong),
 and that [he believes that Wuhan reached herd immunity](https://www.vt.se/nyheter/giesecke-vi-kommer-att-klara-det-har-om6551023.aspx).
-Anders Tegnell's right hand man, vice state epidemiologst Anders Wallensten, has said that
+Anders Tegnell's right hand man, vice state epidemiologist Anders Wallensten, has said that
 [he doesn't think it's necessary to take the lockdown measures into account when interpreting the data from Wuhan](https://www.dn.se/nyheter/sverige/norge-raknar-med-manga-fler-sjuka-an-i-sverige/).
 
 These claims are almost certainly incorrect, and probably based on the incorrect assumption that it was
