@@ -69,6 +69,8 @@ On March 26 he made
 His predecessor Johan Giesecke has said that 
 [he believes COVID-19 is like a severe seasonal flu](https://www.svt.se/nyheter/inte-varre-an-en-svar-influensasasong),
 and that [he believes that Wuhan reached herd immunity](https://www.vt.se/nyheter/giesecke-vi-kommer-att-klara-det-har-om6551023.aspx).
+Anders Tegnell's right hand man, vice state epidemiologst Anders Wallensten, has said that
+[he doesn't think it's necessary to take the lockdown measures into account when interpreting the data from Wuhan](https://www.dn.se/nyheter/sverige/norge-raknar-med-manga-fler-sjuka-an-i-sverige/).
 
 These claims are almost certainly incorrect, and probably based on the incorrect assumption that it was
 [herd immunity](https://en.wikipedia.org/wiki/Herd_immunity) that stopped the outbreak in Wuhan City.
