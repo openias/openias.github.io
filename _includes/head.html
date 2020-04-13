@@ -1,15 +1,14 @@
 <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>{% if page.layout != "post" %}{{ site.title }} |{% endif %}
            {% if page.title %}{{ page.title }}{% endif %}</title>
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}" />
 
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
     <!--[if lt IE 9]>
@@ -30,19 +29,19 @@
     <!-- Twitter cards: -->
     {{ page.author_twitter }}
     {% if page.author_twitter %}
-    <meta name="twitter:site"    content="@{{ page.author_twitter }}">
-    <meta name="twitter:creator" content="@{{ page.author_twitter }}">
-    <meta name="twitter:title"   content="{{ page.title }}">
+    <meta name="twitter:site"    content="@{{ page.author_twitter }}" />
+    <meta name="twitter:creator" content="@{{ page.author_twitter }}" />
+    <meta name="twitter:title"   content="{{ page.title }}" />
 
     {% if page.summary %}
-    <meta name="twitter:description" content="{{ page.summary }}">
+    <meta name="twitter:description" content="{{ page.summary }}" />
     {% endif %}
 
     {% if page.feature_image %}
-    <meta name="twitter:card"  content="summary_large_image">
-    <meta name="twitter:image" content="{{ site.url }}/img/{{ page.feature_image }}.jpg">
+    <meta name="twitter:card"  content="summary_large_image" />
+    <meta name="twitter:image" content="{{ site.url }}/img/{{ page.feature_image }}.jpg" />
     {% else %}
-    <meta name="twitter:card"  content="summary">
+    <meta name="twitter:card"  content="summary" />
     {% endif %}
     {% endif %}
 
