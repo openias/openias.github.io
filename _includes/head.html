@@ -48,6 +48,7 @@
 
     <!-- Facebook Open Graph tags: -->
     {{ if page.author_facebook }}
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
     <meta property="og:type" content="article" />
     <meta property="article:author" content="https://www.facebook.com/{{ page.author_facebook }}" />
     <meta property="og:title" content="{{ page.title }}" />
