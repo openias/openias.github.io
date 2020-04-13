@@ -8,6 +8,7 @@ author_name: Bj&ouml;rn Smedman
 author_url: /author/bjorn
 author_avatar: bjorn
 author_twitter: bjornsing
+author_facebook: bjornsing
 show_avatar: true
 read_time: 10
 feature_image: feature-covid19
