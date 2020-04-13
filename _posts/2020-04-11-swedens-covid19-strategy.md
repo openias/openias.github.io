@@ -91,7 +91,7 @@ Epidemiology has traditionally been a medical science, but has in recent years p
 publish their assumptions and predictions based on careful calculations. Medical doctors typically make quick decisions based on
 experience, entirely in their heads.
 
-Anders Björkman, professor of infectious deceases at the [Karolinska Institute](https://ki.se/en), has openly
+Anders Björkman, professor of infectious diseases at the [Karolinska Institute](https://ki.se/en), has openly
 defended the latter practice in
 [an opinion piece titled "Don't combat Corona with mathematical models"](https://www.svd.se/bekampa-inte-corona-med-matematiska-modeller/i/senaste/om/debatt).
 In [another opinion piece titled "Disaster prognoses complicate things for decision makers"](https://www.dn.se/debatt/skrackprognoser-om-corona-forsvarar-for-beslutfattare/) he repeats the claim that over 90% of those infected with
@@ -104,7 +104,7 @@ The official death toll presently stands at 887, with about 60 deaths per day ov
 Swedish radio recently [interviewed Lisa Brouwers, the Head of unit for analysis at the Public Health Agency, about their
 use of mathematical models](https://sverigesradio.se/avsnitt/1475828).
 According to her the authority wants to avoid making uncertain assumptions, and therefore doesn't do any mathematical modelling
-of the spread of the decease and subsequent care need. They also reject
+of the spread of the disease and subsequent care need. They also reject
 [the models from Neil Ferguson's group at Imperial College](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/covid-19/)
 on the same grounds. Instead they seem to rely on Anders Tegnell's and his colleagues' judgement. The problem of course is that
 neither mathematical models nor human cognition can work without assumptions. You can choose to not acknowledge and disclose them.
@@ -112,7 +112,7 @@ But you can't avoid making them.
 
 ## What will happen in Stockholm?
 
-On April 8 Anders Tegnell [claimed that the spread of the decease in Stockholm had plateaued, and that we might even have seen
+On April 8 Anders Tegnell [claimed that the spread of the disease in Stockholm had plateaued, and that we might even have seen
 the turning point for the epidemic there](https://www.svt.se/nyheter/inrikes/tegnell-vi-ser-en-utplaning-och-att-epidemin-kan-flytta-ut-fran-stockholm).
 He did not clearly state why he made this prediction. No significant measures have been introduced over the past three weeks.
 However, at the time of this writing about 4&nbsp;200 people have sought medical care for 
