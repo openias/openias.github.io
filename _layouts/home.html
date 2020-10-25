@@ -10,6 +10,10 @@ layout: with-sidebar
 <div class="home-page-posts animated fadeIn ">
     {% for post in site.posts %}
 
+        {% if post.hidden == true %}
+            {% continue %}
+        {% endif %}
+
     <article class="post">
         <div class="post-preview col-xs-10  no-gutter">
             <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
