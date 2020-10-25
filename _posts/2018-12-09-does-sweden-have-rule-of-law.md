@@ -9,6 +9,7 @@ author_avatar: bjorn
 show_avatar: true
 read_time: 20
 feature_image: feature-riksdag
+hidden: true
 ---
 The stars have aligned in a strange way over Sweden and something
 quite out of the ordinary has happened: a former director of a government
