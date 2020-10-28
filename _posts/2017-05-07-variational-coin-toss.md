@@ -48,10 +48,12 @@ prior.
 
 ### Classic Bayesian Inference
 
+<p class="math" style="display: none;">
 $$
 \newcommand{\vect}[1]{\boldsymbol{#1}}
 \newcommand\given[1][]{\:#1\vert\:}
 $$
+</p>
 
 Now that we have a prior over $z$ and we've tossed the coin a few times
 we're ready to infer the posterior. Call the outcome of the coin tosses
@@ -83,9 +85,11 @@ is the closest approximation of $p(z \given \vect{x})$. To do that we of course
 need some sort of definition of "closeness". The classic one is the
 [Kullback-Leibler divergence](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence):
 
+<p class="math" style="display: none;">
 $$
 \newcommand{\KL}[2]{D_{\mathrm{KL}} \left( \left. \left. #1 \right|\right| #2 \right) }
 $$
+</p>
 
 <p class="math">
 $$
@@ -134,9 +138,11 @@ $\int q(z) dz$ is $1$ by definition (of probability density function). The
 third term can be interpreted as the expectation of $\log p(\vect{x} \given z)$
 over $q(z)$. We then get
 
+<p class="math" style="display: none;">
 $$
 \newcommand{\Expect}[2]{\mathbb{E}_{#1} \left[ #2 \right]}
 $$
+</p>
 
 <p class="math">
 $$

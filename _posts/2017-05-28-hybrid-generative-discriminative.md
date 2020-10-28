@@ -19,12 +19,14 @@ loosely based on the importance weighted autoencoder
 [(Burda et al., 2015)](https://arxiv.org/abs/1509.00519). Don't miss the
 [pretty pictures]({{ page.url }}#experiments).
 
+<p class="math" style="display: none;">
 $$
 \newcommand{\vect}[1]{\boldsymbol{#1}}
 \newcommand\given[1][]{\:#1\vert\:}
 \newcommand{\KL}[2]{D_{\mathrm{KL}} \left( \left. \left. #1 \right|\right| #2 \right) }
 \newcommand{\set}[1]{\{#1\}}
 $$
+</p>
 
 ## Discriminative vs Generative Classifiers
 
