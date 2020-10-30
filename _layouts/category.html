@@ -8,6 +8,11 @@ layout: with-sidebar
 
 <div class="category-page-posts animated fadeIn ">
     {% for post in site.categories[page.category] %}
+
+        {% if post.hidden == true %}
+            {% continue %}
+        {% endif %}
+
     <article class="post">
         <div class="post-preview col-xs-10  no-gutter">
 
